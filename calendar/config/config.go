@@ -1,6 +1,6 @@
 package config
 
-import "github.com/mattermost/mattermost-plugin-mscalendar/calendar/utils/bot"
+import "github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils/bot"
 
 var Provider ProviderConfig
 

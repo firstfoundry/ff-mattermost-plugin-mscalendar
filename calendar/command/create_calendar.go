@@ -1,7 +1,7 @@
 package command
 
 import (
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/remote"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/remote"
 )
 
 func (c *Command) createCalendar(parameters ...string) (string, bool, error) {

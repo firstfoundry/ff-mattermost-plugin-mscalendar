@@ -1,6 +1,6 @@
 package store
 
-import "github.com/mattermost/mattermost-plugin-mscalendar/calendar/utils/kvstore"
+import "github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils/kvstore"
 
 type WelcomeStore interface {
 	LoadUserWelcomePost(mattermostID string) (string, error)

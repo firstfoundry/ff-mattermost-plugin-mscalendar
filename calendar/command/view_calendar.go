@@ -6,7 +6,7 @@ package command
 import (
 	"time"
 
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/engine/views"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/engine/views"
 )
 
 func (c *Command) viewCalendar(_ ...string) (string, bool, error) {
