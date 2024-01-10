@@ -9,9 +9,9 @@ import (
 	http "net/http"
 	reflect "reflect"
 
-	gomock "github.com/golang/mock/gomock"
 	config "github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/config"
 	remote "github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/remote"
+	gomock "github.com/golang/mock/gomock"
 	oauth2 "golang.org/x/oauth2"
 )
 
