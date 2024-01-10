@@ -13,10 +13,10 @@ import (
 
 	"github.com/mattermost/mattermost-server/v6/model"
 
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/config"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/engine"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/engine/views"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/utils"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/config"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/engine"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/engine/views"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils"
 )
 
 func (api *api) preprocessAction(w http.ResponseWriter, req *http.Request) (mscal engine.Engine, user *engine.User, eventID string, option string, postID string) {

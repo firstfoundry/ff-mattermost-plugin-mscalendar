@@ -6,7 +6,7 @@ package msgraph
 import (
 	"github.com/pkg/errors"
 
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/remote"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/remote"
 )
 
 func (c *client) GetMe() (*remote.User, error) {

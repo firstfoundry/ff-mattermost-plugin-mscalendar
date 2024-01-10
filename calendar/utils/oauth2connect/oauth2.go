@@ -4,8 +4,8 @@
 package oauth2connect
 
 import (
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/config"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/utils/httputils"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/config"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils/httputils"
 )
 
 type App interface {

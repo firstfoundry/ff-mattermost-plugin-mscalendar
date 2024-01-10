@@ -1,7 +1,7 @@
 package msgraph
 
 import (
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/config"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/config"
 )
 
 const (

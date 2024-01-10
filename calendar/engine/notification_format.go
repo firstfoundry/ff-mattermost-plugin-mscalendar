@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/config"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/engine/views"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/remote"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/utils/fields"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/config"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/engine/views"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/remote"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils/fields"
 
 	"github.com/mattermost/mattermost-server/v6/model"
 )

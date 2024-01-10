@@ -6,7 +6,7 @@ package jobs
 import (
 	"time"
 
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/engine"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/engine"
 )
 
 const ditherRenew = 50 * time.Millisecond

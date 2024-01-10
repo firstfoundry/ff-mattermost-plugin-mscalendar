@@ -3,7 +3,7 @@
 
 package jobs
 
-import "github.com/mattermost/mattermost-plugin-mscalendar/calendar/engine"
+import "github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/engine"
 
 // Unique id for the status sync job
 const statusSyncJobID = "status_sync"

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/utils/httputils"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils/httputils"
 )
 
 func (oa *oa) oauth2Complete(w http.ResponseWriter, r *http.Request) {

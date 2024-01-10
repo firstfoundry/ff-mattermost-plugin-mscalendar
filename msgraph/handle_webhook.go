@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/remote"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/utils/bot"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/remote"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils/bot"
 )
 
 const renewSubscriptionBeforeExpiration = 12 * time.Hour

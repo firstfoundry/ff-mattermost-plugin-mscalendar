@@ -5,8 +5,8 @@ import (
 
 	"github.com/mattermost/mattermost-server/v6/model"
 
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/utils/bot"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/utils/kvstore"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils/bot"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils/kvstore"
 )
 
 type Setting interface {

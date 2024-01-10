@@ -1,7 +1,7 @@
 package command
 
 import (
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/utils"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils"
 )
 
 func (c *Command) showCalendars(_ ...string) (string, bool, error) {

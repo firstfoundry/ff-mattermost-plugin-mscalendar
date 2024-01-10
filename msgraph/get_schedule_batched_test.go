@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/remote"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/remote"
 )
 
 func TestMakeSingleRequestForGetSchedule(t *testing.T) {

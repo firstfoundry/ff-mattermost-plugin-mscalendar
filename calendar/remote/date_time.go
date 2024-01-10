@@ -6,7 +6,7 @@ package remote
 import (
 	"time"
 
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/utils/tz"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils/tz"
 )
 
 type EmailAddress struct {

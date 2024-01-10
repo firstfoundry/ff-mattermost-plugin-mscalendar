@@ -10,12 +10,12 @@ import (
 	"github.com/mattermost/mattermost-server/v6/model"
 	"github.com/pkg/errors"
 
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/config"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/engine/views"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/remote"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/store"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/utils"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/utils/bot"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/config"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/engine/views"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/remote"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/store"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils/bot"
 )
 
 const (

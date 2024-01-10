@@ -11,8 +11,8 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/oauth2"
 
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/remote"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/utils/kvstore"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/remote"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils/kvstore"
 )
 
 type ChannelEventLink map[string]string

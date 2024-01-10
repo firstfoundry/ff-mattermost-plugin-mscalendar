@@ -13,14 +13,14 @@ import (
 	"github.com/golang/mock/gomock"
 	"golang.org/x/oauth2"
 
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/config"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/engine/mock_plugin_api"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/remote"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/remote/mock_remote"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/store"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/store/mock_store"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/utils/bot"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/utils/bot/mock_bot"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/config"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/engine/mock_plugin_api"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/remote"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/remote/mock_remote"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/store"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/store/mock_store"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils/bot"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils/bot/mock_bot"
 )
 
 func newTestNotificationProcessor(env Env) NotificationProcessor {

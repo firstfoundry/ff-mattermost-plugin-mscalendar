@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/store"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/utils"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/utils/bot"
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/utils/httputils"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/store"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils/bot"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/utils/httputils"
 )
 
 func (api *api) autocompleteConnectedUsers(w http.ResponseWriter, r *http.Request) {

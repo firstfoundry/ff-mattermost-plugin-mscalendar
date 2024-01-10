@@ -6,7 +6,7 @@ package engine
 import (
 	"context"
 
-	"github.com/mattermost/mattermost-plugin-mscalendar/calendar/remote"
+	"github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/remote"
 )
 
 type Client interface {
