@@ -8,10 +8,10 @@ import (
 	reflect "reflect"
 	time "time"
 
-	gomock "github.com/golang/mock/gomock"
 	engine "github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/engine"
 	remote "github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/remote"
 	store "github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/store"
+	gomock "github.com/golang/mock/gomock"
 )
 
 // MockEngine is a mock of Engine interface.

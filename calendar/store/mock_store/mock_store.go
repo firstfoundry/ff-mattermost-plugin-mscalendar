@@ -7,8 +7,8 @@ package mock_store
 import (
 	reflect "reflect"
 
-	gomock "github.com/golang/mock/gomock"
 	store "github.com/firstfoundry/ff-mattermost-plugin-mscalendar/calendar/store"
+	gomock "github.com/golang/mock/gomock"
 )
 
 // MockStore is a mock of Store interface.
